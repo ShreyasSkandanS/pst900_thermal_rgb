@@ -16,6 +16,14 @@ Repository for **PST900 RGB-Thermal Calibration, Dataset and Segmentation Networ
 
 ## PST900 RGB-T
 
+#### Sensor Head
+
+![platform](/imgs/robotplatform.png)
+
+#### Example Image
+
+![rgbtdata](/imgs/pstrgbt.png)
+
 The directory structure for this dataset is as follows:
 ```
 .
