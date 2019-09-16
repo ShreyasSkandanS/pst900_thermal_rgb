@@ -55,6 +55,10 @@ The directory structure for this dataset is as follows:
 
 ## PSTRGB
 
+#### Example Images
+
+![rgbdata](/imgs/pstrgb.png)
+
 The directory structure for this dataset is as follows:
 ```
 ├── rgb/                                        # RGB Images 
