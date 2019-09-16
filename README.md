@@ -2,6 +2,7 @@
 
 Repository for **PST900 RGB-Thermal Calibration, Dataset and Segmentation Network** | C++, Python, PyTorch
 
+If you have any questions regarding this dataset, please raise a GitHub issue here or reach out to us at sshreyas@seas.upenn.edu *(Shreyas S. Shivakumar)* or rodri651@seas.upenn.edu *(Neil Rodrigues)*.
 
 # PST900 Dataset
 
@@ -11,7 +12,7 @@ Repository for **PST900 RGB-Thermal Calibration, Dataset and Segmentation Networ
 | PST-RGB   | 3359*  | No | [Google Drive](https://drive.google.com/file/d/1E455FCQ7CjE5VrYwr9msuNL8_5E5TTdn/view?usp=sharing) | 3.1GB | 
 
 ```
-* our paper mentions 3416 annotated RGB images. The additional images can be provided on request.
+* our paper mentions 3416 annotated RGB images. Additional images will be provided on request.
 ```
 
 ## PST900 RGB-T
@@ -76,3 +77,6 @@ The directory structure for this dataset is as follows:
 |   ├── 01_levine_rgb_1_rdb_bag_100109
 |   ├── ...
 ```
+
+
+## Toolkit
