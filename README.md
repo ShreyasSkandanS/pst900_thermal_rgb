@@ -1,6 +1,6 @@
 # Penn Subterranean Thermal 900
 
-Repository for **PST900 RGB-Thermal Calibration**, **Dataset** and **Segmentation Network** | C++, Python, PyTorch
+Repository for **PST900 RGB-Thermal Calibration, Dataset and Segmentation Network** | C++, Python, PyTorch
 
 
 # PST900 Dataset
