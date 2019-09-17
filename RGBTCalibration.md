@@ -1,5 +1,7 @@
 # RGB-T Calibration
 
+![calibration](/imgs/calibration.gif)
+
 For RGB-T calibration code, please refer to the following repositories:
 
 1. Checkerboard Detector: [Libcbdetect](https://github.com/ShreyasSkandanS/libcbdetect)
@@ -10,3 +12,11 @@ For RGB-T calibration code, please refer to the following repositories:
 ```
 * for access to these repositories, please e-mail me at sshreyas@seas.upenn.edu
 ```
+
+Thermal Calibration:
+
+![thermal_calibration](/imgs/thermal_calibration.png)
+
+RGB-Thermal Correspondences:
+
+![thermal_rgb](/imgs/thermal_rgb_detection.png)
