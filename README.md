@@ -99,7 +99,7 @@ A demo of the utilities are provided in **utilities.py**; this can be run as a p
 python3 utilities.py
 ```
 
-#### Data loader
+#### 1. Data loader
 
 Once you select a split type (either Train or Test, or another custom split), you can use our dataset sample fetch script:
 
@@ -120,7 +120,12 @@ Loaded label image | H: 720, W: 1280, C: 1, Type: uint8
 
 **Note**: Depth and Thermal Raw (16 bit) must be loaded as 16-bit images.
 
-#### Thermal Hole Filling
+The RGB and Thermal (8-bit) can be easily viewed and should look like this:
+
+![RGB](/imgs/utils_rgb_loader.png)
+![Thermal](/imgs/utils_thermal_loader.png)
+
+#### 2. Thermal Hole Filling
 
 The following method will perform a simple hole filling in the thermal images. The holes are a result of projecting the information from the Thermal camera onto the RGB camera. The holes are a result of parallax, resulting in a many-to-one mapping of pixels in RGB into the Thermal camera plane.
 
@@ -129,7 +134,11 @@ The following method will perform a simple hole filling in the thermal images. T
 thermal_filled = utils.fill_thermal(thermal)
 ```
 
-#### Label visualization
+The output should look like this:
+
+![hole_filled](/imgs/thermal_hole_filling.png)
+
+#### 3. Label visualization
 
 The labels are stored as uint8 images, with each pixel representing the class index {0..4}. This class indices can be mapped to colors for easier visualization as follows:
 

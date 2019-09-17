@@ -147,8 +147,15 @@ def main():
     # Example dataset sample loader
     rgb, depth, thermal, thermal_raw, label = utils.get_sample(140)
 
+    cv2.imshow("RGB", rgb)
+    cv2.imshow("Thermal", thermal)
+    cv2.waitKey(0)
+
     # Example hole filling for Thermal image
     thermal_filled = utils.fill_thermal(thermal)
+
+    cv2.imshow("Thermal_Filled", thermal_filled)
+    cv2.waitKey(0)
 
     # Example colormapping for Label image
     colormapped_label = utils.visualize_label(label)
