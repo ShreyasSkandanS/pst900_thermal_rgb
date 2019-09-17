@@ -15,7 +15,7 @@ For RGB-T calibration code, please refer to the following repositories:
 
 Thermal Calibration:
 
-![thermal_calibration](/imgs/thermal_calibration.png)
+![thermal_calibration](/imgs/thermal_calibration.jpg)
 
 RGB-Thermal Correspondences:
 
