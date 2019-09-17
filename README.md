@@ -86,3 +86,58 @@ The directory structure for this dataset is as follows:
 
 
 ## Toolkit
+
+We provide a basic set of tools for working with this dataset. This tools are mainly focused on how to read and represent the RGB, Thermal, Thermal (16-bit) and Labels.
+
+Basic utilities can be found in the **toolkit/utilities.py** script.
+
+### Basic Utilities
+
+A demo of the utilities are provided in **utilities.py**; this can be run as a python script. Provide the location to the dataset to the *pst900_path* variable and run the following command:
+
+```
+python3 utilities.py
+```
+
+#### Data loader
+
+Once you select a split type (either Train or Test, or another custom split), you can use our dataset sample fetch script:
+
+```
+# Example dataset sample loader
+rgb, depth, thermal, thermal_raw, label = utils.get_sample(102)
+```
+
+and each modality should look like this:
+```
+==== Loading sample ====
+Loaded RGB image | H: 720, W: 1280, C: 3, Type: uint8
+Loaded Depth image | H: 720, W: 1280, C: 1, Type: uint16
+Loaded Thermal image | H: 720, W: 1280, C: 1, Type: uint8
+Loaded Thermal Raw image | H: 720, W: 1280, C: 1, Type: uint16
+Loaded label image | H: 720, W: 1280, C: 1, Type: uint8
+```
+
+**Note**: Depth and Thermal Raw (16 bit) must be loaded as 16-bit images.
+
+#### Thermal Hole Filling
+
+The following method will perform a simple hole filling in the thermal images. The holes are a result of projecting the information from the Thermal camera onto the RGB camera. The holes are a result of parallax, resulting in a many-to-one mapping of pixels in RGB into the Thermal camera plane.
+
+```
+# Example hole filling for Thermal image
+thermal_filled = utils.fill_thermal(thermal)
+```
+
+#### Label visualization
+
+The labels are stored as uint8 images, with each pixel representing the class index {0..4}. This class indices can be mapped to colors for easier visualization as follows:
+
+```
+# Example colormapping for Label image
+colormapped_label = utils.visualize_label(label)
+```
+
+The resulting image should look like this:
+
+![label_vis](/imgs/utils_label_vis.png)

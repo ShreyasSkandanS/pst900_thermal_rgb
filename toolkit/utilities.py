@@ -26,7 +26,7 @@ class DatasetUtilities:
         self.label_image_list = []
 
         self.num_samples = 0
-
+        self.DEPTH_SCALING = 2560
         self.pst_colormap = self.init_colormap()
 
         self.read_dataset()
@@ -66,6 +66,7 @@ class DatasetUtilities:
         )
         # Load a Depth Image
         depth_image = cv2.imread(self.depth_image_list[index], -1)
+        depth_image = depth_image / self.DEPTH_SCALING
         assert len(depth_image.shape) == 2
         print("Loaded Depth image | H: {}, W: {}, C: {}, Type: {}".format(
             depth_image.shape[0],
@@ -111,7 +112,7 @@ class DatasetUtilities:
             thermal_image, 
             hole_mask, 
             10, 
-            cv2.INPAINT_NS
+            cv2.INPAINT_TELEA
         )
         return filled_thermal
 
@@ -137,14 +138,14 @@ class DatasetUtilities:
         
 
 def main():
-    pst900_path = '/home/shreyasskandan/Dropbox/RGBDT_Segmentation/PST900_RGBT_Dataset/'
+    pst900_path = '/home/shreyas/Dropbox/RGBDT_Segmentation/PST900_RGBT_Dataset/'
     split_type = 'test'
 
     # Instantiate utilities
     utils = DatasetUtilities(pst900_path, split_type)
 
     # Example dataset sample loader
-    rgb, depth, thermal, thermal_raw, label = utils.get_sample(102)
+    rgb, depth, thermal, thermal_raw, label = utils.get_sample(140)
 
     # Example hole filling for Thermal image
     thermal_filled = utils.fill_thermal(thermal)
