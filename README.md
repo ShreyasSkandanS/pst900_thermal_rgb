@@ -9,6 +9,7 @@ If you have any questions regarding this dataset, please raise a GitHub issue he
 1. [Dataset](/README.md)
 2. [RGB-T Calibration](/RGBTCalibration.md)
 3. [Semantic Segmentation](/SemanticSegmentation.md)
+4. [Hardware](/HardwareSpec.md)
 
 # PST900 Dataset
 
