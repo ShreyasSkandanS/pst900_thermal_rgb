@@ -4,6 +4,9 @@ Repository for **PST900 RGB-Thermal Calibration, Dataset and Segmentation Networ
 
 If you have any questions regarding this dataset, please raise a GitHub issue here or reach out to us at sshreyas@seas.upenn.edu *(Shreyas S. Shivakumar)* or rodri651@seas.upenn.edu *(Neil Rodrigues)*.
 
+[![PST900Video](http://img.youtube.com/vi/8nZ-uYN7BG0/0.jpg)](http://www.youtube.com/watch?v=8nZ-uYN7BG0)
+
+
 # Index
 
 1. [Dataset](/README.md)
