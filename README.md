@@ -41,7 +41,7 @@ If you wish to cite our overall DARPA Subterranean Challenge [autonomy system](h
 
 | Dataset  | Total Samples | Train/Test Split | Download Link | Size | 
 | ------------- | ------------- | ------------ | ------------ | ------------ | 
-| PST900 RGB-T  | 894  | Yes | [Google Drive](https://drive.google.com/file/d/1f4QT7RFfHIEMYW80jrbBs3qo5qjKou9M/view?usp=sharing) | 1.4GB | 
+| PST900 RGB-T  | 894  | Yes | [Google Drive](https://drive.google.com/open?id=1hZeM-MvdUC_Btyok7mdF00RV-InbAadm) | 1.4GB | 
 | PST-RGB   | 3359*  | No | [Google Drive](https://drive.google.com/file/d/1E455FCQ7CjE5VrYwr9msuNL8_5E5TTdn/view?usp=sharing) | 3.1GB | 
 
 ```
