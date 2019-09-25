@@ -6,6 +6,29 @@ If you have any questions regarding this dataset, please raise a GitHub issue he
 
 [![PST900Video](http://img.youtube.com/vi/8nZ-uYN7BG0/0.jpg)](http://www.youtube.com/watch?v=8nZ-uYN7BG0)
 
+If you use this dataset, please cite [our arXiv paper](https://arxiv.org/abs/1909.10980) below:
+```
+@misc{shivakumar2019pst900,
+    title={PST900: RGB-Thermal Calibration, Dataset and Segmentation Network},
+    author={Shreyas S. Shivakumar and Neil Rodrigues and Alex Zhou and Ian D. Miller and Vijay Kumar and Camillo J. Taylor},
+    year={2019},
+    eprint={1909.10980},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
+
+If you wish to cite our overall DARPA Subterranean Challenge [autonomy system](https://arxiv.org/abs/1909.09662), please cite:
+```
+@misc{miller2019tunnel,
+    title={Mine Tunnel Exploration using Multiple Quadrupedal Robots},
+    author={Ian D. Miller and Fernando Cladera and Anthony Cowley and Shreyas S. Shivakumar and Elijah S. Lee and Laura Jarin-Lipschitz and Akhilesh Bhat and Neil Rodrigues and Alex Zhou and Avraham Cohen and Adarsh Kulkarni and James Laney and Camillo Jose Taylor and Vijay Kumar},
+    year={2019},
+    eprint={1909.09662},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO}
+}
+```
 
 # Index
 
