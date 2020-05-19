@@ -1,0 +1,6 @@
+Download the dataset into this folder.
+
+Try this:
+wget https://www.dropbox.com/s/5eyfi503gp5ri8d/PST900_RGBT_Dataset.zip
+
+Or use the Google Drive link provided in the main repo README.

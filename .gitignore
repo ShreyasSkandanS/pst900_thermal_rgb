@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Ignore dataset
+pstnet/data/data/PST900_RGBT_Dataset/*
+
+# Ignore pre-trained weights
+pstnet/data/weights/*/
