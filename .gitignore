@@ -38,4 +38,4 @@ pstnet/data/data/PST900_RGBT_Dataset/*
 pstnet/data/weights/*/
 
 # Ignore inference directory
-pstnet/data/inference/*
+pstnet/data/inference/*/
