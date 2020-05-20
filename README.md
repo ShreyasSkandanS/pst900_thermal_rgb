@@ -34,7 +34,7 @@ If you wish to cite our overall DARPA Subterranean Challenge [autonomy system](h
 
 1. [Dataset](/README.md)
 2. [RGB-T Calibration](/RGBTCalibration.md)
-3. [Semantic Segmentation](/SemanticSegmentation.md)
+3. [Semantic Segmentation](/pstnet/README.md)
 4. [Hardware](/HardwareSpec.md)
 
 # PST900 Dataset

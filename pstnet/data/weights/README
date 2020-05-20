@@ -1,6 +1,6 @@
 Download the provided pre-trained models into this folder.
 
 Try this:
-wget 
+wget https://www.dropbox.com/s/nregozp2anygdjw/weights.zip 
 
 Or contact me for a link to the pre-trained models

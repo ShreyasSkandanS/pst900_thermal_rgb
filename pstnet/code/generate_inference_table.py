@@ -14,7 +14,7 @@ from pst_inference import model_inference_loader
 
 if __name__ == "__main__":
     # Generate contents for TABLE II
-    '''
+
     # 1. ERFNet RGB
     MODEL_NAME = "erfnet_rgb"
     NUM_CHANNELS = 3
@@ -74,7 +74,7 @@ if __name__ == "__main__":
     MODEL_NAME = "pstnet"
     NUM_CHANNELS = 3
     model_inference_loader(MODEL_NAME, NUM_CHANNELS)
-    '''
+
     # 13. PSTNet RGB-T 
     MODEL_NAME = "pstnet_thermal"
     NUM_CHANNELS = 4

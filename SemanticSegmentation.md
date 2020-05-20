@@ -1,3 +1,0 @@
-# Semantic Segmentation Network
-
-Coming soon...
