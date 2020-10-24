@@ -35,6 +35,9 @@ cd data/weights/
 wget https://www.dropbox.com/s/nregozp2anygdjw/weights.zip
 unzip weights.zip
 ```
+
+If that dropbox link doesn't work, please try this Google Drive link - https://drive.google.com/file/d/1frRfClQQP4th-cjxJwKmBuMXxBw2CYdF/view?usp=sharing
+
 * Organized the repository in the structure provided below
 
 Additionally, you will need to provide paths to the *data* folder of this repository in the file:
